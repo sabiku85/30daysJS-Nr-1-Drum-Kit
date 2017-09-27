@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="drum kit">
+    <meta name="keywords" content="drum kit, 30 days JS">
+    <meta name="author" content="Sabi_k">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class=" flex-container">
+      <div data-key="65" class="button">
+        <kbd>A</kbd>
+        <span class="sound">low conga</span>
+      </div>
+      <div data-key="83" class="button">
+        <kbd>S</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="68" class="button">
+        <kbd>D</kbd>
+        <span class="sound">ride</span>
+      </div>
+      <div data-key="70" class="button">
+        <kbd>F</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="72" class="button">
+        <kbd>H</kbd>
+        <span class="sound">rimshot</span>
+      </div>
+      <div data-key="74" class="button">
+        <kbd>J</kbd>
+        <span class="sound">high conga</span>
+      </div>
+      <div data-key="75" class="button">
+        <kbd>K</kbd>
+        <span class="sound">crash</span>
+      </div>
+      <div data-key="76" class="button">
+        <kbd>L</kbd>
+        <span class="sound">bass drum</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="sounds/low_conga.mp3"></audio>
+    <audio data-key="83" src="sounds/clap.mp3"></audio>
+    <audio data-key="68" src="sounds/ride.mp3"></audio>
+    <audio data-key="70" src="sounds/snare.mp3"></audio>
+    <audio data-key="72" src="sounds/rimshot.mp3"></audio>
+    <audio data-key="74" src="sounds/high_conga.mp3"></audio>
+    <audio data-key="75" src="sounds/crash.mp3"></audio>
+    <audio data-key="76" src="sounds/bass_drum.mp3"></audio>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
