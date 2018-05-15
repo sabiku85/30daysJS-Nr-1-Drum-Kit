@@ -8,7 +8,7 @@ body {
   font-family: 'Verdana', sans-serif;
   width: 100%;
   height: 100vh;
-  background: url(https://images.pexels.com/photos/164853/pexels-photo-164853.jpeg?h=350&auto=compress&cs=tinysrgb) no-repeat center /cover;
+  background: url('../images/play.jpeg') no-repeat center /cover;
 }
 
 .flex-container {
